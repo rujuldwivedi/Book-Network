@@ -20,10 +20,10 @@ Welcome to **Readdit**! This is a social networking platform for book lovers, wh
 
 ## Structure
 
-[Image 1](screenshots/be-pipeline.png)
-[Image 2](screenshots/class-diagram.png)
-[Image 3](screenshots/fe-pipeline.png)
-[Image 4](screenshots/security.png)
+![Image 1](screenshots/be-pipeline.png)
+![Image 2](screenshots/class-diagram.png)
+![Image 3](screenshots/fe-pipeline.png)
+![Image 4](screenshots/security.png)
 
 ## Installation and Setup ⚙️
 
