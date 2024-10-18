@@ -33,7 +33,7 @@ To run Readdit locally, follow these steps:
     ```
     # Clone this repo
     git clone https://github.com/rujuldwivedi/Book-Network.git
-    cd Readdit
+    cd book-network
     ```
 
 2. **Backend Setup**:
