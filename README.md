@@ -15,7 +15,7 @@ Welcome to **Readdit**! This is a social networking platform for book lovers, wh
 
 - **Frontend**: Angular (TypeScript)
 - **Backend**: Spring Boot (Java)
-- **Database**: MySQL
+- **Database**: PostgreSQL
 - **Authentication**: JWT for secure user sessions
 
 ## Structure
@@ -39,19 +39,24 @@ To run Readdit locally, follow these steps:
 2. **Backend Setup**:
 
    - Make sure you have **Java 11+** and **Maven** installed.
-   - Set up the **MySQL database**:
+   - Set up the **PostgreSQL database**:
       ```
-      # Login to MySQL
-      mysql -u root -p
+      # Login to PostgreSQL
+      psql -U postgres
       # Create the Readdit database
       CREATE DATABASE readdit;
+      # If you have a password
+      psql -U your_username -W
       ```
-   - Configure the database credentials in `application.properties`:
+   - Configure the database credentials in `application.yml`:
       ```
-      # application.properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/readdit
-      spring.datasource.username=yourUsername
-      spring.datasource.password=yourPassword
+      # application.yml
+      spring:
+          datasource:
+            url: jdbc:postgresql://localhost:3306/readdit
+            username: yourUsername
+            password: yourPassword
+
       ```
 
    - Run the backend server:
