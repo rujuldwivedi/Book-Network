@@ -1,4 +1,4 @@
-# Book Social Network - Backend
+# Backend
 
 ## Overview
 
@@ -16,12 +16,12 @@ The backend of the Book Social Network project is responsible for handling all s
 
 ## Setup Instructions
 
-To set up the backend of the Book Social Network project, follow these steps:
+To set up the backend of the Book Network project, follow these steps:
 
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/ali-bouali/book-social-network.git
+   git clone https://github.com/rujuldwivedi/book-network.git
 ```
 
 2. Run the docker-compose file
@@ -33,7 +33,7 @@ To set up the backend of the Book Social Network project, follow these steps:
 3. Navigate to the book-social-network directory:
 
 ```bash
-  cd book-social-network
+  cd book-network
 ```
 
 4. Install dependencies (assuming Maven is installed):
@@ -55,7 +55,3 @@ Open a web browser and go to `http://localhost:8088/swagger-ui/index.html.
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
-
-## Contributors
-
-- [Ali Bouali](https://github.com/ali-bouali)
